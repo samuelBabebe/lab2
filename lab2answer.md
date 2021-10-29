@@ -1,4 +1,6 @@
 #My insight how the JavaScript engine works. By Samuel Abebe
+  
+  
   we all know JavaScript is a higher-level language which means it is written by using human language instead of machine languages which is used by lower- level programing languages like C and assembly. So how our language(syntax) can be changed in the way that the machine can understand? That is where JS Engine comes. JS Engine is an interpreter of human language to machine language or bytecode. Different web-browser engine companies use their own JS Engine for example Chrome uses V8 Mozilla uses Spider Monkey and so on.
  Now let see how JS Engine works and the layouts of each component. When we write our code on our IDE, we use example.js file which is still documented in human readable language. After this point there are so many components that makes our document readable to our machine for now let us see each of them in short.
 Parser:-
